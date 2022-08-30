@@ -31,12 +31,12 @@ import Card from "./Card";
   }
 
 
-
+//give icon class of hidden so no hiccup
   return (
     <div className="Carousel">
       <h1>{title}</h1>
       <div className="Carousel-main">
-      { currCardIdx > 0 && <i
+      { currCardIdx > 0 && <i //set variable isAtEnd...
           className="bi bi-arrow-left-circle"
           onClick={goBackward}
         />}

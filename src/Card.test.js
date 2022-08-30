@@ -23,6 +23,7 @@ it("has the correct caption & src", function () {
 
   expect(img.getAttribute("alt")).toEqual("testing image 1");
   expect(img.getAttribute("src")).toContain("test1.com");
+  //can use toHaveClass
   expect(img.getAttribute("class")).toContain("Card-image");
 });
 

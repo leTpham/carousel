@@ -66,7 +66,7 @@ it("works when you click on the left arrow", function () {
   ).toBeInTheDocument();
 });
 
-
+//prolly should split up test for left and right arrow
 it("arrow missing when images are exhausted ", function () {
   const { container } = render(
     <Carousel
